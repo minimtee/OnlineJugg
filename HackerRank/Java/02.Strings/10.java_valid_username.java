@@ -17,7 +17,7 @@ public class Solution{
 		Scanner scan = new Scanner(System.in);
 		int n = Integer.parseInt(scan.nextLine());
 
-		String regex = "^[a-zA-Z][\\w]{7,29}$"
+		String regex = "^[a-zA-Z][\\w]{7,29}$";
 		Pattern p = Pattern.compile(regex);
 
 		while(n-- > 0){
